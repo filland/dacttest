@@ -1,0 +1,2 @@
+public class DactTestModel {
+}
