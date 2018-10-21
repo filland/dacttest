@@ -33,4 +33,9 @@ public class TestCard implements ITestCard {
     public boolean isRightOption(int optionID) {
         return false;
     }
+
+    @Override
+    public boolean isAnswered() {
+        return false;
+    }
 }
