@@ -1,10 +1,14 @@
 package com.dact.beans;
 
-// TODO DELETE ME AND OTHER INTERFACES IN THIS PACKAGE
 public interface ITestResult {
 
-    int getNumberOfQuestions();
+    int getNumberOfTestCards();
 
-    int getNumberOfCorrectlyAnsweredQuestions();
+    int getNumberOfCorrectlyAnsweredTestCards();
 
+    /**
+     *
+     * @return number of correctly answered cards divide by number of all cards
+     */
+    double getCorrectToAllRatio();
 }

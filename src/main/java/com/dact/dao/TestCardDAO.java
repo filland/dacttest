@@ -6,6 +6,10 @@ import java.util.List;
 
 public interface TestCardDAO {
 
+    /**
+     *
+     * @return list with all found test cards
+     */
     List<TestCard> findAll();
 
 }

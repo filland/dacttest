@@ -2,8 +2,8 @@ package com.dact.beans;
 
 public interface ITestCardOption {
 
-    int getOptionsNumber();
+    int getID();
 
-    String getOptionsText();
+    String getText();
 
 }
