@@ -1,13 +1,11 @@
 package com.dact.beans;
 
-public class TestCardOption implements ITestCardOption {
+public class TestCardOption {
 
-    @Override
     public int getID() {
         return 0;
     }
 
-    @Override
     public String getText() {
         return null;
     }

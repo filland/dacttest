@@ -10,7 +10,7 @@ public class DactTestModel {
     private TestCardDAOJSONImp testCardDAOJSON;
 
     // list for storing all test cards
-    private List<ITestCard> testCards;
+    private List<TestCard> testCards;
 
 
     /**
@@ -19,10 +19,10 @@ public class DactTestModel {
      * >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
      */
     // this list is initialized again when new test started
-    private List<ITestCard> cardsForCurrentTest;
+    private List<TestCard> cardsForCurrentTest;
 
     // this list contains answers to test cards of current test
-    private List<ITestAnswer> answersForCurrentTest;
+    private List<TestAnswer> answersForCurrentTest;
 
     private int counterOfCorrectlyAnsweredTestCards = 0;
     /**
@@ -66,14 +66,14 @@ public class DactTestModel {
         return false;
     }
 
-    public ITestCard getNextTestCard(){
+    public TestCard getNextTestCard(){
 
 
         return null;
     }
 
 
-    public void setAnswerToCurrentTestCard(ITestAnswer answer){
+    public void setAnswerToCurrentTestCard(TestAnswer answer){
 
         // TODO check if the answer is correct
 
@@ -90,13 +90,13 @@ public class DactTestModel {
      *
      * @return previous test card or null if there is no previous test card
      */
-    public ITestCard getPreviousTestCard(){
+    public TestCard getPreviousTestCard(){
 
         return null;
     }
 
 
-    public ITestResult getResult(){
+    public TestResult getResult(){
 
         // TODO process list with answers here
 

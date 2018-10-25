@@ -1,18 +1,18 @@
 package com.dact.beans;
 
-public class TestResult implements ITestResult {
+public class TestResult {
 
-    @Override
     public int getNumberOfTestCards() {
         return 0;
     }
 
-    @Override
     public int getNumberOfCorrectlyAnsweredTestCards() {
         return 0;
     }
 
-    @Override
+    /**
+     * @return number of correctly answered cards divide by number of all cards
+     */
     public double getCorrectToAllRatio() {
         return 0;
     }
